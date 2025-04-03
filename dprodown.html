@@ -1,0 +1,20 @@
+<html>
+    <title></title>
+    <head>
+        <style>
+            details.description[open] summary::after {
+              content: attr(data-open);
+            }
+
+            details.description:not([open]) summary::after {
+              content: attr(data-close);
+            }
+        </style>
+    </head>
+    <body>
+        <details class="description" open>
+          <summary data-open="Close" data-close="Show"></summary>
+          <p>Description text</p>
+        </details>
+    </body>
+</html>
