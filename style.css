@@ -1,0 +1,147 @@
+/* p, ul font change */ 
+p, ul, h1, h4{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/*background image */
+.bgimage {
+    height:100vh;
+    background-image: url('projectImages/india2.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.aboutText.card {
+    height: 250px;
+  }
+
+.about-title{
+    text-align: left;
+}
+
+
+
+/*hobby page*/
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon { 
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #ffcc00;
+}
+.servicesText:hover {
+    border: 1px solid #ffcc00;
+}
+
+
+
+
+/* display background color black on navbar scroll black */
+.navbarScroll.navbarDark {
+    background-color: #000000;
+}
+
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #ffcc00;
+}
+.fas {
+    color: #000000;
+}
+
+
+
+/* footer styling */
+#footer {
+    background-color: #000000;
+    text-align: center;
+}
+
+.fab {
+    color: #ffffff;
+}
+
+
+
+/* text css above main image*/ 
+.main_title {
+    font-size: 4.5rem;
+}
+.main_desc {
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+
+.main-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+}
+
+
+
+/* spacing on all sections */
+#about, #hobby, #gallery, #blog, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+
+
+/* gallery page*/
+
+.bgimageSub{
+    height:35vh;
+    background-image: url('projectImages/india2.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.gallery{
+    margin: 20px, 500px;
+}
+
+.gallery img{
+    width:200px;
+    padding:3px;
+    transition: 1s; 
+    
+}
+
+.gallery img:hover{
+    transform:scale(1.1); 
+}
+
+.galleryIcon{
+    font-size: 20px;
+    text-align: left;
+    width: 100%;   
+}
